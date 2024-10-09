@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 10px 20px;
+}
+
+.navs {
+    position: fixed;
+    margin-top: -180px;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+/* __________________________________________NAV______________________________ */
+/* __________________________________________NAV______________________________ */
+/* __________________________________________NAV______________________________ */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 1450px;
+}
+
+
+.logo-pic {
+    width: 110px;
+}
+
+.nav-li {
+    display: flex;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    gap: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+li {
+    font-size: 16px;
+}
+
+li:hover {
+    color: #0dc955;
+}
+
+.search {
+    width: 390px;
+    height: 45px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid #eee;
+    border-radius: 60px;
+    margin-left: 100px;
+
+}
+
+.search-icon {
+    width: 25px;
+}
+
+.search-text {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #666;
+    margin-left: -130px;
+}
+
+.btn-login {
+    font-size: 16px;
+    border: none;
+    background:none;
+    margin-left: -20px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.btn-login:hover {
+    color: #0dc955;
+}
+
+.btn-sign {
+    width: 100px;
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    background-color: #0f8a3e;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.btn-sign:hover {
+    background-color: #0dc955;
+}
+
+/* __________________________________________NAV-2______________________________ */
+/* __________________________________________NAV-2______________________________ */
+/* __________________________________________NAV-2______________________________ */
+
+.other {
+    display: flex;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    gap: 30px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.other-links {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* __________________________________________Hero______________________________ */
+/* __________________________________________Hero______________________________ */
+/* __________________________________________Hero______________________________ */
+
+.hero {
+    display: flex;
+    width: 1330px;
+    justify-content: space-between;
+    margin-left: 85px;
+    margin-top: 180px;
+}
+
+.hero-img {
+    width: 480px;
+}
+
+.hero-header {
+    font-size: 90px;
+    font-weight: 200;
+}
+
+.hero-text {
+    font-size: 25px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.hero-btn {
+    width: 150px;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    background-color: #109c46;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    margin-top: 40px;
+}
+
+.hero-btn:hover {
+    background-color: #0dc955;
+}
+
+/* __________________________________________company______________________________ */
+/* __________________________________________company______________________________ */
+/* __________________________________________company______________________________ */
+
+.company {
+    margin-left: 80px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.comp-text {
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.comp-img {
+    margin-left: -22px;
+}
+
